@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Lighting_Phong.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\lighting_phong.frag" />
+    <None Include="shaders\lighting_phong.vert" />
+    <None Include="shaders\bulb.frag" />
+    <None Include="shaders\bulb.vert" />
+    <None Include="shaders\lighting_blinn-phong.frag" />
+    <None Include="shaders\lighting_blinn-phong.vert" />
+  </ItemGroup>
+</Project>
